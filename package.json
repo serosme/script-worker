@@ -1,0 +1,16 @@
+{
+  "name": "script-worker",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "10.0.0",
+    "eslint": "10.14.0",
+    "wrangler": "4.157.0"
+  }
+}
